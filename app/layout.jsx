@@ -6,6 +6,12 @@ import { FaTiktok, FaInstagram } from "react-icons/fa";
 
 export const metadata = {
   title: "DramaIN • Streaming Short Drama",
+  description: "Website streaming mini drama menggunakan Dramabox API.",
+  icons: {
+    icon: "/dramain-logo.png",      // ← pakai file dari folder /public
+    shortcut: "/dramain-logo.png",
+    apple: "/dramain-logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {
